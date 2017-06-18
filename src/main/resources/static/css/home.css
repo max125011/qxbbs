@@ -1,0 +1,19 @@
+.site-branding{margin:0;}
+.cards article .img-box{width: 60px; height: 60px}
+.cards article img{width: 60px; height: 60px}
+.cards article{height: 300px}
+.pagination-float{float:right;}
+.excellent-cards h1 {background-color: #186ec0;}
+.excellent-cards h1 a{color: white !important;}
+.all-cards h1{background-color: #186ec0;}
+.all-cards h1 a{color: white!important;}
+.site-branding .site-title{margin:5px 0;}
+.site-head-logo {
+    margin: 0;
+    width: 150px !important;
+    height: 50px !important;
+}
+
+.cards{position: relative; padding-bottom: 58px;}
+.cards nav{position: absolute;right: 0; bottom: 8px;}
+.pagination{margin:0;}

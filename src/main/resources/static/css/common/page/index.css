@@ -1,0 +1,151 @@
+* {
+  font-family: "Muli", "Helvetica Neue", Arial, sans-serif;
+}
+* a:hover {
+  text-decoration: none!important;
+}
+.btn {
+ cursor: pointer;
+}
+.btn-primary {
+  color: #FFFFFF;
+  border-radius: 3px;
+  background: #03A9F4;
+  border: none;
+  font-weight: bold;
+}
+.btn-primary:hover {
+  background-color: #0ab1fc;
+}
+.btn-action {
+  display: block;
+  margin: 10px auto;
+  width: 240px;
+  height: 56px;
+  font-size: 16px;
+  line-height: 38px;
+}
+.btn.load-more {
+  display: block!important;
+  font-family: Muli-Bold;
+  font-size: 18px;
+  color: #03A9F4;
+  line-height: 26px;
+  font-family: "Muli", "Helvetica Neue", Arial, sans-serif;!important
+  font-weight: bold;
+  font-size: 20px;
+  width: 200px;
+  height: 50px;
+  margin: 0 auto;
+  background: white!important;
+  border: 1px solid #03A9F4;
+  opacity: 1;
+  transition: opacity 0.518s ease-out
+}
+.btn.load-more.done {
+  opacity: 0;
+}
+.btn.load-more:hover {
+  background-color: #03A9F4!important;
+  color: #ffffff;
+  -webkit-transition: all 0.218s ease-in-out;
+  -o-transition: all 0.218s ease-in-out;
+  transition: all 0.218s ease-in-out;
+}
+body.home,
+body.single-post,
+body.archive {
+  background-image: url(../../images/global/blog-bg@2x.png);
+  background-repeat: no-repeat;
+  background-position: center -140px!important;
+  background-size: 100% auto;
+  padding-top: 75px;
+}
+body.open-modal {
+  overflow: hidden;
+}
+@media (max-width: 980px) {
+  body.home,
+  body.single-post {
+    padding-top: 50px;
+  }
+}
+
+body.single-post {
+  background-position-y: -350px;
+}
+.content-area {
+  max-width: 990px;
+  margin: 0 auto;
+}
+.site-branding {
+  margin-top: 53px;
+  margin-bottom: 80px;
+  text-align: center;
+}
+.site-branding .site-title {
+  font-weight: 400;
+  font-size: 42px;
+  color: #383838;
+  line-height: 60px;
+  margin-bottom: 30px;
+}
+.site-branding .site-description {
+    font-weight: 200;
+    font-size: 24px;
+    color: rgba(127,127,127,0.80);
+    line-height: 35px;
+}
+.site-branding .site-title a {
+  font-size: 42px;
+  color: #383838;
+  text-decoration: none;
+}
+
+/* qr code */
+.modal-back {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1040;
+  background-color: #000000;
+}
+.modal-back.fade {
+  opacity: 0;
+  z-index: -23333;
+}
+.modal-back.in {
+  z-index: 23333;
+  opacity: 1;
+  background: rgba(0,0,0,0.7)
+}
+.modal-backdrop {
+  display: none;
+}
+.modal-dialog {
+  z-index: 1050;
+  margin: 100px auto;
+  width: 280px;
+}
+.modal-header {
+  padding-top: 20px;
+  min-height: 16.43px;
+  text-align: center;
+}
+.modal-header .close {
+  font-size: 37px;
+  position: relative;
+  right: 0px;
+  top: -10px;
+}
+.modal-body {
+  padding: 20px 15px !important;
+}
+.bigImg {
+  position: fixed;
+  top: 50px;
+  left: 50%;
+  z-index: 2333;
+}

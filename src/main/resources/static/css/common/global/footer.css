@@ -1,0 +1,349 @@
+
+.site-footer {
+  background-color: #333333;
+  color: white;
+}
+.site-footer .footer-nav {
+  margin: 0 0!important;
+  padding: 30px 0 10px;
+}
+.site-footer .footer-nav .col-md-12 {
+  padding: 0;
+}
+.site-footer .footer-nav .nav-group {
+  float: left;
+  color: #777777;
+  width: 20%;
+}
+.site-footer .footer-nav .nav-group h4 {
+  color: #d9d9d9;
+  margin-bottom: 20px;
+}
+.site-footer .footer-nav .nav-group li {
+  margin-bottom: 20px;
+}
+.site-footer .footer-nav .nav-group li > a,
+.site-footer .footer-nav .nav-group li .small > a {
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+  text-decoration: none;
+  color: #777777;
+}
+.site-footer .footer-nav .nav-group li > a:hover {
+  color: #ededed;
+}
+.site-footer .footer-nav .nav-group li .small {
+  display: block;
+}
+
+/* switch lang */
+.site-footer .switch-wrap {
+  display: inline-block;
+}
+.site-footer .switch-wrap .dropdown-toggle {
+  display: inline-block;
+  width: 124px;
+  height: 36px;
+  padding: 6px 0;
+  text-align: center;
+  background-color: transparent;
+  border: 1px solid #a6a6a6;
+  border-radius: 3px;
+  color: #a6a6a6;
+}
+.site-footer .switch-wrap .dropdown-toggle .icon-dropdown {
+  transform: scale(0.8);
+}
+.site-footer .switch-wrap .dropdown-menu {
+  display: none;
+  position: absolute;
+  width: 124px;
+  min-width: 124px;
+  height: 44px;
+  margin: 0;
+  border: none;
+  overflow-y: auto;
+  text-align: center;
+  border-radius: 3px;
+  background-color: #fff;
+}
+.site-footer .switch-wrap .dropdown-menu a {
+  padding: 6px 0;
+  line-height: 20px;
+  color: #a6a6a6;
+}
+.site-footer .switch-wrap .dropdown-menu a:hover {
+  color: #1eb7fc !important;
+  background-color: transparent;
+}
+.site-footer .switch-wrap:hover .dropdown-menu {
+  display: block;
+}
+
+.site-footer .copyright {
+  background-color: #000000;
+  min-height: 70px;
+}
+.site-footer .copyright > a > img {
+  width: auto;
+  position: absolute;
+  visibility: hidden;
+}
+.site-footer .copyright .text {
+  display: block;
+  float: left;
+  font-size: 16px;
+  padding: 24px 0;
+}
+.site-footer .copyright .text,
+.site-footer .copyright .text a {
+  color: #a6a6a6;
+}
+.site-footer .copyright .sns-info {
+  float: right;
+  margin: 15px 0;
+}
+.site-footer .copyright .sns-info > a.icon {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  font-size: 22px;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+  cursor: pointer;
+  -webkit-transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 25px 25px;
+}
+.site-footer .copyright .sns-info > a.icon .pop {
+  font-size: 14px;
+  line-height: 20px;
+}
+.site-footer .copyright .sns-info > a.icon:hover {
+  color: #ededed;
+}
+.site-footer .copyright .sns-info > a.icon:hover .pop {
+  display: block !important;
+}
+.site-footer .copyright .sns-info > a.icon:last-child {
+  margin-right: 0;
+}
+.site-footer .copyright .sns-info > a.icon.icon-qq {
+  position: relative;
+}
+.site-footer .copyright .sns-info > a.icon.icon-qq:after {
+  position: absolute;
+  left: 0;
+  top: -20px;
+  width: 38px;
+  height: 38px;
+  content: "";
+}
+.site-footer .copyright .sns-info > a.icon.icon-qq .pop {
+  display: none;
+  position: absolute;
+  top: -106px;
+  left: -76px;
+  width: 182px;
+  height: 100px;
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #d5d8dd;
+  text-align: center;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.15);
+}
+.site-footer .copyright .sns-info > a.icon.icon-qq .pop:after {
+  position: absolute;
+  left: 88px;
+  bottom: -13px;
+  border: 7px solid transparent;
+  border-top: 7px solid white;
+  content: "";
+}
+.site-footer .copyright .sns-info > a.icon.icon-qq .pop label {
+  color: #808080;
+  margin-bottom: 10px;
+}
+.site-footer .copyright .sns-info > a.icon.icon-qq .pop p {
+  color: #a6a6a6;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  text-align: left;
+  overflow: hidden;
+  text-overflow: clip;
+  white-space: nowrap;
+}
+.site-footer .copyright .sns-info > a.icon.icon-qq .pop p:not(:last-child) {
+  text-decoration: line-through;
+}
+.site-footer .copyright .sns-info > a.icon.icon-wechat {
+  position: relative;
+}
+.site-footer .copyright .sns-info > a.icon.icon-wechat:after {
+  position: absolute;
+  left: 0;
+  top: -20px;
+  width: 38px;
+  height: 38px;
+  content: "";
+}
+.site-footer .copyright .sns-info > a.icon.icon-wechat .pop {
+  display: none;
+  position: absolute;
+  top: -210px;
+  left: -56px;
+  width: 150px;
+  height: 205px;
+  padding: 20px 10px;
+  border: 1px solid #d5d8dd;
+  background-color: #ffffff;
+  text-align: center;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.15);
+}
+.site-footer .copyright .sns-info > a.icon.icon-wechat .pop:after {
+  position: absolute;
+  left: 68px;
+  bottom: -13px;
+  border: 7px solid transparent;
+  border-top: 7px solid white;
+  content: "";
+}
+.site-footer .copyright .sns-info > a.icon.icon-wechat .pop label {
+  color: #808080;
+  margin-bottom: 0;
+}
+.site-footer .copyright .sns-info > a.icon.icon-wechat .pop p {
+  color: #a6a6a6;
+  margin-bottom: 10px;
+}
+.site-footer .copyright .sns-info > a.icon.icon-wechat .pop .qr-wrapper {
+  width: 120px;
+  height: 120px;
+  margin: 0 auto;
+  background-image: url(../images/global/weixin-qr.jpg);
+  background-size: 120px 120px;
+}
+.en .site-footer .nav-group,
+.en .site-footer .other-products {
+  width: 20%;
+}
+.en .site-footer .desc-more .icon {
+  position: relative;
+  top: 1px;
+}
+.en .site-footer .sns-info > a.icon-qq .pop {
+  padding: 20px 10px 20px 15px !important;
+}
+@media (max-width: 1199px) and (min-width: 1025px) {
+  .site-footer .footer-nav .nav-group {
+    padding-left: 1.5%;
+    width: 20%;
+  }
+}
+@media (max-width: 1024px) {
+  .site-footer .footer-nav {
+    padding: 15px 0;
+  }
+  .site-footer .footer-nav .nav-group {
+    box-sizing: content-box;
+    min-width: 50%;
+    text-align: center;
+    padding-top: 10px;
+    border-bottom: 1px dashed #6e6e6e;
+    margin-bottom: 0;
+  }
+  .site-footer .footer-nav .nav-group h4 {
+    margin-bottom: 10px;
+  }
+  .site-footer .footer-nav .nav-group > li {
+    margin-bottom: 10px;
+  }
+  .site-footer .footer-nav .nav-group > li.switch-items {
+    border-bottom: 1px dashed #6e6e6e;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+  }
+  .site-footer .footer-nav .nav-group:first-child {
+    min-width: 50%;
+  }
+  .site-footer .footer-nav .nav-group:nth-child(3),
+  .site-footer .footer-nav .nav-group:nth-child(4) {
+    height: 150px;
+  }
+  .site-footer .footer-nav .nav-group:last-child {
+    width: 100%;
+    height: 240px;
+    border: none;
+    text-align: center;
+  }
+  .site-footer .footer-nav .nav-group.en:last-child {
+    height: 210px;
+  }
+  .site-footer .copyright .text {
+    width: 100%;
+    font-size: 16px;
+    padding: 14px 0 4px;
+    margin-bottom: 0;
+    text-align: center;
+  }
+  .site-footer .copyright .small {
+    display: block;
+    margin-top: 8px;
+  }
+  .site-footer .sns-info {
+    float: none !important;
+    text-align: center;
+  }
+}
+@media (max-width: 360px) {
+  .site-footer .copyright {
+    padding-top: 33px;
+  }
+  .site-footer .copyright .text {
+    display: block;
+    padding: 0;
+    margin-bottom: 5px;
+  }
+}
+.site-footer .copyright .sns-info .hide {
+  display: none;
+}
+.site-footer .copyright .sns-info a.icon {
+  display: inline-block;
+}
+.site-footer .copyright .sns-info a.icon-wechat {
+  background-image: url(../../images/global/wechat.svg);
+}
+.site-footer .copyright .sns-info a.icon-weibo {
+  background-image: url(../../images/global/weibo.svg);
+}
+.site-footer .copyright .sns-info a.icon-qq {
+  background-image: url(../../images/global/qq.svg);
+}
+.site-footer .copyright .sns-info a.icon-rss {
+  background-image: url(../../images/global/rss.svg);
+}
+.site-footer .copyright .sns-info a.icon-dribbble {
+  background-image: url(../../images/global/dribbble.svg);
+}
+.site-footer .copyright .sns-info a.icon-facebook {
+  background-image: url(../../images/global/facebook.svg);
+}
+.site-footer .copyright .sns-info a.icon-twitter {
+  background-image: url(../../images/global/twitter.svg);
+}
+.site-footer .copyright .sns-info a.icon-linkedin {
+  background-image: url(../../images/global/linkedin.svg);
+}
+.site-footer .copyright .sns-info a.icon.icon-wechat .pop .qr-wrapper {
+  width: 120px;
+  height: 120px;
+  margin: 0 auto;
+  background-image: url(../../images/global/weixin-qr.jpg);
+  background-size: 120px 120px;
+}

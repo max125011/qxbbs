@@ -1,0 +1,40 @@
+#server:
+#    port: 80
+#    content-path: #//
+#
+#logging:
+#    level:
+#
+#spring:
+#
+#    mvc:
+#        view:
+#            prefix: /templates/
+#            suffix: .ftl
+#    freemarker:
+#        cache: false
+#        request-content-attribute: request
+#
+#mybatis:
+#  mapperLocations: com.bbs.mapper
+#  typeAliasesPackage: com.bbs.model
+#
+##以下属性不可用
+##mybatis:
+##    pagehelper:
+##        dialect: mysql
+##        reasonable: true
+##        supportMethodsArguments: true
+##        returnPageInfo: check
+##        params: count=countSql
+##    mapper:
+##        mappers: tk.mybatis.springboot.util.MyMapper
+##        notEmpty: true
+##        style: camelhump
+##    sqlSessionFactoryBean:
+##        mapperLocations:
+##            - classpath:mapper/*.xml
+##            - classpath:mapper2/*.xml
+##        typeAliasesPackage: tk.mybatis.springboot.model
+##    mapperScanner:
+##        basePackage: tk.mybatis.springboot.mapper

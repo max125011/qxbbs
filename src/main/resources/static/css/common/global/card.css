@@ -1,0 +1,115 @@
+
+/* article cards */
+.cards {
+  overflow: hidden;
+  margin-bottom: 80px;
+  padding-top: 20px;
+  max-width: 990px;
+  margin: 0 auto;
+}
+.cards *, .cards *:hover, .card *:active, .card *:focus {
+  text-decoration: none!important;
+}
+.cards article {
+  position: relative;
+  top: 0px;
+  float: left;
+  width: 300px;
+  height: 400px;
+  margin: 15px;
+  overflow: hidden;
+  margin-bottom: 30px;
+  border-radius: 3px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px 0 #CCCBCB;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+@media (max-width: 990px) {
+  .cards {
+    max-width: 660px;
+  }
+}
+@media (max-width: 660px) {
+  .cards {
+    max-width: 330px;
+  }
+}
+@media (max-width: 330px) {
+  .cards article {
+    margin: 10px auto;
+  }
+}
+.cards article:hover {
+  box-shadow: 0 2px 8px 4px #E9E9E9;
+  top: -6px;
+}
+.cards article .link-wrap{
+  display: block;
+  padding: 24px 24px 0;
+  width: 100%!important;
+  height: 100%!important;
+}
+.cards article .img-box {
+  overflow: hidden;
+  width: 252px;
+  height: 159px;
+  border-radius: 3px;
+  border:1px solid transparent;
+}
+.cards article img {
+  width: 252px;
+  height: auto;
+  position: relative;
+  left: 0px;
+  -webkit-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+  transform: scale(1.0);
+}
+.cards article .tb-category,
+.cards article .article-header {
+  text-align: center;
+}
+.cards article:hover img {
+  position: relative;
+  transform: scale(1.06);
+}
+.cards article .height-limiter {
+  display: block;
+  height: 156px;
+  overflow: hidden;
+}
+.cards article .entry-header * {
+  font-size: 18px;
+  color: #383838;
+  line-height: 24px;
+}
+.cards article .article-content {
+    max-width: 800px;
+    margin: 30px auto 40px;
+}
+.cards article .entry-content {
+  font-size: 14px;
+  color: #808080;
+  line-height: 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.cards article .entry-category {
+  position: absolute;
+  bottom: 16px;
+  left: 24px;
+}
+
+.cards article .entry-meta {
+  position: absolute;
+  bottom: 16px;
+  right: 24px;
+}
+.cards article .entry-meta .entry-date {
+  font-size: 14px;
+  color: #A6A6A6;
+  line-height: 20px;
+}
